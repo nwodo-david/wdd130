@@ -1,18 +1,17 @@
 /* NAVIGATION */
 nav {
     background-color: #333;
-    /* dark background for the nav */
+    /* dark background */
     padding: 10px;
-    /* space inside the nav */
 }
 
 nav a {
     color: #fff;
-    /* text color of links */
+    /* text color for links */
     padding: 8px 12px;
-    /* space around each link */
+    /* spacing around each link */
     display: block;
-    /* each link on a new line */
+    /* make links stack vertically */
     text-decoration: none;
     /* remove underline */
 }
@@ -20,14 +19,14 @@ nav a {
 /* MAIN CONTENT */
 main {
     max-width: 840px;
-    /* limits width of main content */
+    /* limit content width */
     margin: 0 auto;
-    /* centers main content horizontally */
+    /* center main content */
 }
 
 h1 {
     color: #2a2a2a;
-    /* color of main heading */
+    /* heading color */
 }
 
 main img {
