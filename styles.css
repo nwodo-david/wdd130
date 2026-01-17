@@ -1,32 +1,66 @@
- main {
-     max-width: 840px;
- }
+/* NAVIGATION */
+nav {
+    background-color: #333;
+    /* dark background for the nav */
+    padding: 10px;
+    /* space inside the nav */
+}
 
- aside {
-     width: 300px;
-     margin: 20px;
-     border: 1px solid #333;
-     padding: 15px;
-     background-color: #f4f4f4;
-     color: #000;
- }
+nav a {
+    color: #fff;
+    /* text color of links */
+    padding: 8px 12px;
+    /* space around each link */
+    display: block;
+    /* each link on a new line */
+    text-decoration: none;
+    /* remove underline */
+}
 
- aside img {
-     width: 200px;
-     height: auto;
- }
+/* MAIN CONTENT */
+main {
+    max-width: 840px;
+    /* limits width of main content */
+    margin: 0 auto;
+    /* centers main content horizontally */
+}
 
- main img {
-     width: 150px;
-     height: auto;
- }
+h1 {
+    color: #2a2a2a;
+    /* color of main heading */
+}
 
- p {
-     padding: 0;
- }
+main img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;
+    padding: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
 
- footer {
-     margin-top: 15px;
-     border-top: 1px solid #000;
-     text-align: center;
- }
+/* ASIDE SECTION */
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #333;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* PARAGRAPHS */
+p {
+    padding: 0;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
